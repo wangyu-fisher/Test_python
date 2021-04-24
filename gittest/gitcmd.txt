@@ -1,0 +1,28 @@
+1 创建仓库    
+$  git init
+
+2、提交文件：
+
+$ git add  文件
+
+3、查看当前状态 
+$ git status
+
+4、查看2各版本之间的区别
+$git diff
+
+5、查看日志  
+$ git log
+
+$ git  log --pretty=online
+
+$ git relog
+
+6、回到某个版本：
+$ git reset --hard head^
+
+或者
+$ git reset --hard  xxx
+
+7、查看 
+$ cat 文件
